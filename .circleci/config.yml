@@ -40,4 +40,4 @@ jobs:
       # run tests!
       - run: mvn integration-test
 
-      - run: mvn verify sonar:sonar -Dsonar.projectKey=${projectKey} -Dsonar.organization=${organization} -Dsonar.host.url={url} -Dsonar.login=${login}
+      - run: mvn verify sonar:sonar -Dsonar.projectKey=${projectKey} -Dsonar.organization=${organization} -Dsonar.host.url=${url} -Dsonar.login=${login}
